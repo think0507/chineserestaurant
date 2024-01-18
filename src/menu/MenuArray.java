@@ -11,18 +11,6 @@ public class MenuArray {
         menuArray.add(indexmenu);
     }
 
-    public void loading(){
-        menuArray.add(new Menu("매운해물볶음밥", 8000, "볶음밥", 1));
-        menuArray.add(new Menu("매운참치볶음밥", 7000, "볶음밥", 2));
-        menuArray.add(new Menu("매운소고기볶음밥", 7000, "볶음밥", 3));
-        menuArray.add(new Menu("짬뽕", 0, "면요리", 101));
-        menuArray.add(new Menu("짜장", 0, "면요리", 102));
-        menuArray.add(new Menu("쟁반짜장", 0, "면요리", 103));
-        menuArray.add(new Menu("탕수육", 0, "탕수육", 201));
-        menuArray.add(new Menu("삼육식버섯탕수육", 0, "탕수육", 202));
-    }
-
-
 
 
 
