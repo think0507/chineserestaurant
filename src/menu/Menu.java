@@ -1,10 +1,10 @@
 package menu;
 
 public class Menu {
-    String name;
-    int price;
-    String category;
-    int menuNumber;
+    public String name;
+    public int price;
+    public String category;
+    public int menuNumber;
 
 
     public String getName() {

@@ -2,7 +2,7 @@ package menu;
 
 public class Loading {
 
-    public void firstloading(){
+    public void firstLoading(){
         MenuArray.menuArray.add(new Menu("매운해물볶음밥", 8000, "볶음밥", 1));
         MenuArray.menuArray.add(new Menu("매운참치볶음밥", 7000, "볶음밥", 2));
         MenuArray.menuArray.add(new Menu("매운소고기볶음밥", 7000, "볶음밥", 3));

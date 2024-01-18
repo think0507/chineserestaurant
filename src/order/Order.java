@@ -15,4 +15,8 @@ public class Order {
         OrderBasket.orderBasketArray.clear();
     }
 
+    public static void addPrice(int price){
+
+    }
+
 }

@@ -6,10 +6,10 @@ public class MenuArray {
     public static ArrayList<Menu> menuArray = new ArrayList<>();
 
     //이름, 가격, 카테고리, 메뉴넘버를 받아 배열에 메뉴추가
-    public static void addMenu(String name, int price, String category, int menuNumber){
-        Menu indexmenu = new Menu(name,price,category,menuNumber);
-        menuArray.add(indexmenu);
-    }
+//    public static void addMenu(String name, int price, String category, int menuNumber){
+//        Menu indexmenu = new Menu(name,price,category,menuNumber);
+//        menuArray.add(indexmenu);
+//    }
 
 
 
