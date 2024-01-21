@@ -8,8 +8,6 @@ import java.util.Scanner;
 public class Kiosk {
     //특정 카테고리를 받았을경우 메뉴출력
     public static void showMenu(String category){
-
-
         switch (category) {
             case "볶음밥":
                 for(int i = 0; i< MenuArray.menuArray.size(); i++){
