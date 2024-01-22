@@ -1,16 +1,8 @@
 
 import menu.*;
-import order.*;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        Scanner sc = new Scanner(System.in);
-
-        OrderBasket ob = new OrderBasket();
-        MenuArray ma = new MenuArray();
-
-        //굳이 이렇게 해야하나? 그렇다고 loading을 static으로 만들 이유는 없어보임.
         Loading loading = new Loading();
         loading.firstLoading();
 
@@ -20,5 +12,6 @@ public class Main {
 
         kiosk.Kiosk.selectMenu();
 
+        //피드백과 달리 Menu라는것은 네이밍은 그대로 가되, 그 아래 Dish(기존 Menu)와 Drink를 세분화함
     }
 }

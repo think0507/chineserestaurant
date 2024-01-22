@@ -6,11 +6,6 @@ public class Menu {
     public String category;
     public int menuNumber;
 
-
-    public String getName() {
-        return name;
-    }
-
     public Menu(String name, int price, String category, int menuNumber){
         this.name = name;
         this.price = price;
@@ -18,4 +13,15 @@ public class Menu {
         this.menuNumber = menuNumber;
     }
 
+    @Override
+    public String toString() {
+        return "이름=" + name +
+                " 가격=" + price +
+                " 카테고리=" + category +
+                " 메뉴번호=" + menuNumber;
+    }
+
+    public String getName() {
+        return name;
+    }
 }

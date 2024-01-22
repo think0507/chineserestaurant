@@ -3,7 +3,7 @@ chineserestaurant(중국관 주문관리 시스템)
 -main
 -(package) kiosk
 -(class) Kiosk
--(package) menu
+-(package) dish
 -(class) Loading
 -(class) Menu
 -(class) MenuArray

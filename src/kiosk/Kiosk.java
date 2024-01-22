@@ -10,23 +10,27 @@ public class Kiosk {
     public static void showMenu(String category){
         switch (category) {
             case "볶음밥":
-                for(int i = 0; i< MenuArray.menuArray.size(); i++){
-                    if(MenuArray.menuArray.get(i).category.equals("볶음밥")){
-                        System.out.println(MenuArray.menuArray.get(i).name+" "+MenuArray.menuArray.get(i).price);
+                for(int i = 0; i< MenuArray.dishArray.size(); i++){
+                    if(MenuArray.dishArray.get(i).category.equals("볶음밥")){
+                        //수정) toString을 생성해서 긴 sout문 조절
+                        //System.out.println(MenuArray.menuArray.get(i).name+" "+MenuArray.menuArray.get(i).price);
+                        System.out.println(MenuArray.dishArray.get(i).toString());
                     }
                 }
                 break;
             case "면요리":
-                for(int i =0; i<MenuArray.menuArray.size();i++){
-                    if(MenuArray.menuArray.get(i).category.equals("면요리")){
-                        System.out.println(MenuArray.menuArray.get(i).name+" "+MenuArray.menuArray.get(i).price);
+                for(int i = 0; i<MenuArray.dishArray.size(); i++){
+                    if(MenuArray.dishArray.get(i).category.equals("면요리")){
+                        //System.out.println(MenuArray.menuArray.get(i).name+" "+MenuArray.menuArray.get(i).price);
+                        System.out.println(MenuArray.dishArray.get(i).toString());
                     }
                 }
                 break;
             case "탕수육":
-                for(int i =0; i<MenuArray.menuArray.size();i++){
-                    if(MenuArray.menuArray.get(i).category.equals("탕수육")){
-                        System.out.println(MenuArray.menuArray.get(i).name+" "+MenuArray.menuArray.get(i).price);
+                for(int i = 0; i<MenuArray.dishArray.size(); i++){
+                    if(MenuArray.dishArray.get(i).category.equals("탕수육")){
+                        //System.out.println(MenuArray.menuArray.get(i).name+" "+MenuArray.menuArray.get(i).price);
+                        System.out.println(MenuArray.dishArray.get(i).toString());
                     }
                 }
                 break;
@@ -83,15 +87,5 @@ public class Kiosk {
                     break;
             }
         }
-
-
-    }
-
-
-//    public static void selectCategory
-
-    //카테고리없이 전체메뉴 출력할 경우 -->굳이안넣음
-    public static void showMenu(){
-        System.out.println(MenuArray.menuArray);
     }
 }
