@@ -1,6 +1,5 @@
 package order;
 
-import menu.Dish;
 import menu.Menu;
 import menu.MenuArray;
 
@@ -15,7 +14,7 @@ public class OrderBasket {
     //String으로 장바구니에 넣을때
     public static void addOrderBasketArray(String stringMenu) {
         Menu menu = null;
-        for (Menu m : MenuArray.dishArray) {
+        for (Menu m : MenuArray.menuArray) {
             if (stringMenu.equals(m.getName())) {
                 menu = m;
                 orderBasketArray.add(menu);
