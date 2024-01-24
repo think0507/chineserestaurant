@@ -10,7 +10,7 @@ public class Main {
         System.out.println("중국관에오신걸 환영합니다");
         System.out.println("---------------------");
 
-        kiosk.Kiosk.selectMenu();
+        kiosk.Kiosk.selectMenuByCategory();
 
         //피드백과 달리 Menu라는것은 네이밍은 그대로 가되, 그 아래 Dish(기존 Menu)와 Drink를 세분화함
         //수정) 키오스크에서 toString을 생성해서 긴 sout문 조절

@@ -45,7 +45,7 @@ public class Kiosk {
                 break;
         }
     }
-    public static void selectMenu() throws InterruptedException {
+    public static void selectMenuByCategory() throws InterruptedException {
         Scanner sc = new Scanner(System.in);
         boolean ordering = true;
         while(ordering){
