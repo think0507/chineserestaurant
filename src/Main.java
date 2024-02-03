@@ -10,7 +10,7 @@ public class Main {
         System.out.println("중국관에오신걸 환영합니다");
         System.out.println("---------------------");
 
-        kiosk.Kiosk.selectMenu();
+        kiosk.Kiosk.selectMenuByCategory();
 
     }
 }
